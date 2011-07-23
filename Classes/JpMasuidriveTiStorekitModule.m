@@ -144,7 +144,7 @@
 		productIds = [NSSet setWithArray:arg0];
 	}
 	else {
-		[self throwException:TiExceptionInvalidType subreason:[NSString stringWithFormat:@"expected: Array or Stinrg, was: %@",[arg0 class]] location:CODELOCATION]; \
+		[self throwException:TiExceptionInvalidType subreason:[NSString stringWithFormat:@"expected: Array or String, was: %@",[arg0 class]] location:CODELOCATION]; \
 	}
 	
 	id callback = [args objectAtIndex:1];
